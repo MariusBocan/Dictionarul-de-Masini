@@ -1,0 +1,171 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+body {
+  background: rgb(0, 0, 0);
+  background-image: linear-gradient(45deg, hsl(0deg, 43%, 10%) 0%, hsl(3deg, 56%, 14%) 20%, hsl(3deg, 64%, 17%) 40%, hsl(2deg, 70%, 21%) 60%, hsl(1deg, 75%, 24%) 80%, hsl(0deg, 79%, 28%) 100%);
+}
+
+.logoArea {
+  text-align: center;
+}
+
+.logomasini {
+  height: 100px;
+  width: 100px;
+}
+
+#aston {
+  background-image: linear-gradient(180deg, hsl(170deg, 100%, 27%) 9%, hsl(169deg, 100%, 24%) 28%, hsl(168deg, 100%, 21%) 41%, hsl(167deg, 100%, 18%) 52%, hsl(165deg, 100%, 16%) 62%, hsl(163deg, 100%, 13%) 70%, hsl(161deg, 100%, 10%) 79%, hsl(156deg, 100%, 8%) 86%, hsl(139deg, 100%, 6%) 93%, hsl(0deg, 0%, 0%) 100%);
+}
+
+#disclaimer {
+  color: red;
+}
+
+h1 {
+  color: white;
+}
+
+input, label {
+  color: white;
+}
+
+.containerPiese {
+  text-align: center;
+}
+
+.pozaPiesa {
+  height: auto;
+  width: 300px;
+}
+
+.numePiesa {
+  color: wheat;
+}
+
+[class*=fontawesome-]:before {
+  font-family: "FontAwesome", sans-serif;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+after {
+  clear: both;
+}
+
+.login {
+  margin: 50px auto;
+  width: 320px;
+}
+
+.login form {
+  margin: auto;
+  padding: 22px 22px 22px 22px;
+  width: 100%;
+  border-radius: 5px;
+  background: #282e33;
+  border-top: 3px solid #434a52;
+  border-bottom: 3px solid #434a52;
+}
+
+.login form span {
+  background-color: #363b41;
+  border-radius: 3px 0px 0px 3px;
+  border-right: 3px solid #434a52;
+  color: #606468;
+  display: block;
+  float: left;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+.login form input[type=text] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}
+
+.login form input[type=email] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}
+
+.login form input[type=password] {
+  background-color: #3b4148;
+  border-radius: 0px 3px 3px 0px;
+  color: #a9a9a9;
+  margin-bottom: 1em;
+  padding: 0 16px;
+  width: 90%;
+  height: 50px;
+}
+
+.login form input[type=submit] {
+  background: rgb(94, 13, 13);
+  border: 0;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+#login form input[type=submit]:hover {
+  background: #16aa56;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: #222;
+}
+
+#photo {
+  height: 100%;
+  width: 100%;
+}
+
+#file {
+  display: none;
+}
+
+#uploadBtn {
+  position: absolute;
+  transform: translateX(-50%);
+  right: 100px;
+  padding: 20px;
+  background: rgb(65, 19, 19);
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  display: none;
+}
+
+.textPiese {
+  color: white;
+}
+
+.subtitluPiese {
+  text-align: left;
+}/*# sourceMappingURL=style.css.map */

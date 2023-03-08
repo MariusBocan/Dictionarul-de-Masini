@@ -1,0 +1,32 @@
+body {
+  background: rgb(0, 0, 0);
+  background-image: linear-gradient(45deg, hsl(0deg, 43%, 10%) 0%, hsl(3deg, 56%, 14%) 20%, hsl(3deg, 64%, 17%) 40%, hsl(2deg, 70%, 21%) 60%, hsl(1deg, 75%, 24%) 80%, hsl(0deg, 79%, 28%) 100%);
+}
+
+h4 {
+  text-align: left;
+  color: wheat;
+}
+
+.poze {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.textPiese {
+  color: white;
+}
+
+span {
+  color: wheat;
+}
+
+ul {
+  color: white;
+}
+
+.miniSubtitlu {
+  color: red;
+}/*# sourceMappingURL=style.css.map */

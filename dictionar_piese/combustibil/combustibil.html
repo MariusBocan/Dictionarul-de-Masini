@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script
+		src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+		crossorigin="anonymous">
+    </script>
+
+    <!-- jQuery -->
+    <script>
+        $(document).ready(function () {
+          $(".linkHome").click(function () {
+              window.location.href = "/index.html"; // window - fereastra afisata in browser; location.href este referinta catre fisierul afisat
+            });
+          });
+      </script>
+
+    <script src="script.js"></script>
+    <title>Dictionar piese auto - Combustibil</title>
+</head>
+<body>
+    <!-- Header -->
+    <div class="m-4">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+          <div class="container-fluid">
+            <a href="index.html" class="navbar-brand linkHome">
+              <img src="../../logo.png" height="100" alt="CoolBrand" />
+            </a>
+            <button
+              type="button"
+              class="navbar-toggler"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarCollapse"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <div class="navbar-nav">
+                <a href="../../index.html" class="nav-item nav-link active text-light">Home</a>
+                <a href="../../profile.html" class="nav-item nav-link text-light"
+                  >Profile</a
+                >
+                <a href="../../calculatorParcare.html" class="nav-item nav-link text-light"
+                  >Calculator parcare Bucuresti</a
+                >
+                <a href="../../piese.html" class="nav-item nav-link text-light"
+                  >Dictionar piese auto</a
+                >
+              </div>
+              <div class="navbar-nav ms-auto">
+                <a href="../../login.html" class="nav-item nav-link text-light">Login</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </div>
+
+      <!-- Despre pagina -->
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-light bg-dark text-light">
+            <div class="container-fluid">
+                <p>
+                     Pe acesta pagina veti gasi informitii despre anumite piese ale masinii, pentru a intelege cum functioneaza masina dumneavoastra, si sa puteti recunoaste anumite probleme mecanice, pentru a evita o eventuala inselatorie la service.
+                </p>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <br>
+
+      <!-- Continut -->
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container-fluid containerPiese mx-5">
+             <div>
+              <img class='poze' src="../poze/combustibili.jpg"><br>
+              <p class="textPiese">
+                Material care stochează energie ce poate fi eliberată ulterior prin diverse reacții chimice pentru obținerea căldurii sau efectuarea de lucru mecanic.<br>
+                Din punct de vedere chimic , combustibilii sunt materiale care prin reacția chimică cu alte substanțe eliberează energia stocată în structură sub formă de căldură sau care poate fi utilizată ca lucru mecanic.<br>
+                În industria energetică prezintă importanță combustibilii energetici, la care căldura degajată prin ardere poate fi utilizată avantajos din punct de vedere tehnico-economic.<br>
+                Tipuri de cobustibili auto uzuali:<br>
+                <ul>
+                    <li>Benzina</li>
+                    <li>Motorina (Diesel)</li>
+                    <li>GPL (Gaz Petrolier Lichefiat)</li>
+                </ul>
+              </p>
+              <p class="textPiese">
+                <span>Benzina</span><br>
+                Benzina 95 este un carburant de cea mai buna calitate, ceea ce face ca acest tip de carburant sa fie special, este compozitia sa echilibrata, cu un continut scazut de sulf (mai putin de 10 ppm), ceea ce aduce multe beneficii si il face foarte convenabil in utilizare.<br>
+                Benzina Premium este destinata atat vehiculelor de ultima generatie cat si celor mai vechi. Avantajul sau principal este ca asigura o aprindere mai rapida a motorului si o mai buna reactie la acclerare.<br>
+                In comparatie cu Benzina 95, Benzina Premium are o cifra octanica mai mare, care ofera motorului mai multa putere, randament crescut si functionare imbunatatita.
+                <ul>
+                    <li>Valoare octanica crescuta</li>
+                    <li>Performanta sporita a vehiculului</li>
+                    <li>Timp de combustie redus</li>
+                    <li>Randament crescut</li>
+                    <li>Functionare mai stabila a motorului</li>
+                    <li>Putere mai mare si flexibilitate imbunatatita a motorului</li>
+                </ul><br>
+              </p>
+              <p class="textPiese">
+                <span>Cifra octanica</span><br>
+                Cifra octanica defineste calitatea carburantului si arata rezistenta acestuia la detonare in combustie. Este important sa retineti faptul ca o cifra octanica mai mare inseamna o rezistenta mai buna.<br>
+                <ul>
+                    <li>Reduce riscul de detonare in combustie</li>
+                    <li>Protejeaza motorul</li>
+                    <li>Prelungeste durata de viata a motorului</li>
+                    <li>Reduce consumul de carburant</li>
+                    <li>Reduce emisiile poluante</li>
+                    <li>Creste puterea motorului</li>
+                </ul><br>
+              </p>
+              <p class="textPiese">
+                <span>Motorina</span><br>
+                Motorinele sunt combustibili petrolieri formați din amestecuri de hidrocarburi cu 12 până la 20 de atomi de carbon în moleculă, obținute din distilarea primară a petrolului în domeniul de temperatură de 220 – 360 ºC.<br>
+                Motorina are avantajul că necesită mai puțină rafinare, fiind astfel mai ieftină decât benzina. De asemenea, este un combustibil mult mai sigur în exploatare deoarece, spre deosebire de benzină, motorina se aprinde mai greu decât benzina.<br>
+                Carburantul Premium diesel din statiile Gazprom are mai multe beneficii care deriva din continutul scazut de sulf si pachetul inovativ de aditivi conceput special pentru vehicule pe motorina<br>
+                <ul>
+                    <li>Performanta imbunatatita a motorului prin combustie mai eficienta, datorita protectiei impotriva uzurii, corziunii si acumularii de sediment pe injectoare</li>
+                    <li>Confort sporit in timpul condusului datorat functionarii mai silentioase si mai constante a motorului, mai ales in conditii de iarna</li>
+                    <li>Protectia mediului inconjurator, datorita emisiilor reduse de gaze</li>
+                </ul><br><br>
+              </p>
+              <p class="textPiese">
+                <span>GPL</span><br>
+                GPL-ul auto este cel mai cunoscut combustibil alternativ din întreaga lume, fiind utilizat de mai multe decenii. Acesta este compus din propan, butan sau un mix al acestora. Beneficiile sale sunt costul redus de achizitie, precum si cantitatea redusa de emisii. GPL-ul auto este un carburant ecologic, care arde in totalitate datorita compozitiei sale, fara a produce miros, fum sau mici particule in atmosfera, prelungind din acest motiv viata motorului.<br>
+                Datorita raspandirii sale si popularitatii din ultimii ani, GPL-ul auto, numit si LPG sau autogaz, a devenit un produs indispensabil. În Romania există deja peste 800 de staţii de GPL auto, numite si instalatii de tip skid. Multe dintre companiile de transport public sau companiile de taxi si-au echipat flotele auto cu instalatii pe GPL, acestea fiind o alternativa mai ieftina si ecologica fata de carburantii clasici benzina si motorina. In industrie tot mai multe motostivuitoare ruleaza pe GPL auto.<br>
+                Beneficii:
+                <ul>
+                    <li>Parcurgerea de distante lungi fara alimentare, datorita celor doua rezervoare de benzina si GPL</li>
+                    <li>Reducerea costurilor de combustibil de cca. 30%</li>
+                    <li>Exploatare în condiţii de siguranţă mai ridicate decat la masinile pe benzina sau motorina</li>
+                    <li>Perioada de amortizare scurta a investitiei cu echiparea pe GPL</li>
+                    <li>Motorul functioneaza mai silentios pe GPL decat pe benzina</li>
+                </ul>
+              </p>
+                
+             </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Footer -->
+
+<footer class="bg-dark text-center text-white mt-4">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Sugestii -->
+              <p>
+                Am omis/gresit ceva? Vrei sa adaugi date noi despre modelele noi sau cele existente? Vrei sa ne impartasesti o idee? Nu ezita sa ne contactezi la adresa de mail : <span style="color:wheat">dictionarul-de-masini@gmail.com</span>
+              </p>
+              <hr>
+            </div>
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          <span id="disclaimer">Disclaimer!!</span> Problemele prezentate pe acest site nu se manifesta 100% la toate masinile, acestea sunt date despre problemele / erorile de proiectare preluate de pe diferite forumuri. Echipa Dictionarul de Masini nu isi asuma responsabilitatea pentru eventualele tepe, neintelegeri, dvs. fiind nevoit sa verificati masina inainte de achizitionare.
+        </p>
+      </section>
+      <!-- Section: Text -->
+    
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Link-uri</h5>
+    
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Termeni si condtii</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Politica reclamelor</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Politica datelor cu caracter personal</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Despre acest proiect</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+    
+         
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+    
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="index.html">www.dictionarul-de-masini.ro</a>
+    </div>
+  
+</body>
+</html>
